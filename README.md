@@ -20,7 +20,7 @@
 1. Clone โปรเจค
    ```bash
    git clone https://github.com/USERNAME/PokemonTeamBuilder.git
-   cd PokemonTeamBuilder
+   cd myapp
    
 flutter pub get
 flutter run
