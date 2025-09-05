@@ -1,16 +1,26 @@
-# myapp
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Pokémon Team Builder
+แอปพลิเคชัน Flutter สำหรับสร้างทีมโปเกม่อน  
+ผู้ใช้สามารถเลือกโปเกม่อน จัดทีม บันทึก และแก้ไขชื่อทีมได้
+คุณสมบัติหลัก
+- สร้างทีมใหม่ → ตั้งชื่อทีม
+- เลือกโปเกม่อนจาก PokeAPI (แสดงรูป + ชื่อ)
+- ค้นหาโปเกม่อนด้วย Search Bar
+- บันทึกทีม → เก็บชื่อ + รายชื่อโปเกม่อน
+- ดูทีมที่บันทึกแล้ว → พร้อมแก้ไขหรือลบ
+- Reset ทีมได้จาก AppBar
+- มี Animation (Hero, Highlight ตอนเลือก)
+ข้อกำหนดระบบ
+- **Flutter SDK**: 3.0.0 ขึ้นไป
+- **Dart SDK**: 2.17.0 ขึ้นไป
+- **Packages ที่ใช้**
+  - `get`
+  - `get_storage`
+  - `http`
+การติดตั้งและการรัน
+1. Clone โปรเจค
+   ```bash
+   git clone https://github.com/USERNAME/PokemonTeamBuilder.git
+   cd PokemonTeamBuilder
+   
+flutter pub get
+flutter run
