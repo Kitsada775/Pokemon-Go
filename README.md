@@ -19,8 +19,6 @@
 
 ## การติดตั้งและการรัน
 1. Clone โปรเจค
-   git clone https://github.com/USERNAME/PokemonTeamBuilder.git
-   cd PokemonTeamBuilder
 ติดตั้ง dependencies
 
 flutter pub get
