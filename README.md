@@ -1,16 +1,12 @@
 # dssishop
 
-A new Flutter project.
+# Flutter + PocketBase CRUD (products)
 
-## Getting Started
+เดโม Flutter เชื่อม PocketBase ทำ CRUD สินค้า (ชื่อ/ราคา/รูป)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ติดตั้งเร็ว
+```bash
+git clone https://github.com/Kitsada775/Pokemon-Go.git
+cd Pokemon-Go
+git switch crudpocketbase
+flutter pub get
