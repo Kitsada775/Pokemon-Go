@@ -3,8 +3,8 @@ class Product {
   final String collectionId;
   final String name;
   final double price;
-  final String? photo;   // ชื่อไฟล์ใน PocketBase
-  final String status;   // available | unavailable
+  final String? photo; 
+  final String status;  
 
   Product({
     required this.id,
